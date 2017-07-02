@@ -1,0 +1,13 @@
+::-webkit-scrollbar {
+display: none;
+}
+nav {
+	-webkit-app-region: drag
+}
+.button {
+	 -webkit-app-region: no-drag;
+}
+#player {
+  width: 100%;
+}
+.video-js.vjs-default-skin .vjs-big-play-button { display: none; }
