@@ -1,5 +1,5 @@
 # Youtube Music Player
-Save your favorites youtube music videos in one place and listen in your desktop in background while you other things.
+Save your favorites youtube music videos in one place and listen in your desktop in background saving space in browser tabs.
 
 Screenshot
 -------------
