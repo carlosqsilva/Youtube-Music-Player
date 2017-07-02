@@ -20,7 +20,7 @@ $ git clone https://github.com/carlosqsilva/Youtube-Music-Player.git
 ```
  Install NodeJs dependencies
 ``` Bash
-$ npm install && bower install
+$ npm install
 ```
 
 **Run the app**
