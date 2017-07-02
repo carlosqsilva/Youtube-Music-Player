@@ -30,7 +30,7 @@ function onSave() {
 		nome: name.value,
 		url: url.value
 	})
-	.then(id => appendList(id))
+	.then(refreshList())
 	.then(toggleModal())
 	.then(() => {
 		nome.value = ""
@@ -40,12 +40,6 @@ function onSave() {
 
 function refreshList() {
 	return db.musicas.toArray().then(renderAll)
-}
-
-function appendList(id) {
-	let item = db.musicas.get(id)
-	lista.innerHTML += musicaHTML(item)
-	return true
 }
 
 function renderAll(musicas) {

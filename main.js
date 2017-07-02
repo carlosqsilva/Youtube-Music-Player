@@ -1,17 +1,25 @@
-const {app, BrowserWindow, Tray} = require('electron')
+const electron = require('electron')
+const {app, BrowserWindow, Tray} = electron
 const path = require('path')
 const url = require('url')
 
 let win
 let tray
+const win_width = 400
+const win_height = 600
 
 function createWindow () {
+
+  const { width, height } = electron.screen.getPrimaryDisplay().workAreaSize
  
   win = new BrowserWindow({
     width: 400,
     height: 600,
     resizable : false,
     frame: false,
+    alwaysOnTop: true,
+    x: width - win_width,
+    y: height - win_height,
     icon: `${__dirname}/assets/img/icon.ico`
   })
   win.loadURL(`${__dirname}/index.html`)
