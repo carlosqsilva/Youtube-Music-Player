@@ -1,11 +1,10 @@
 {
   "name": "yt_player",
   "version": "1.0.0",
-  "description": "testando xel ui toolkit",
+  "description": "Youtube Player collect and save your favorite songs in one place",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "author": "carlosqsilva",
   "license": "ISC",
@@ -13,6 +12,11 @@
     "bulma": "^0.4.2",
     "dexie": "^1.5.1",
     "video.js": "^5.19.2",
-    "videojs-youtube": "^2.4.0"
+    "videojs-youtube": "^2.4.0",
+    "electron": "~1.6.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlosqsilva/Youtube-Music-Player"
   }
 }
