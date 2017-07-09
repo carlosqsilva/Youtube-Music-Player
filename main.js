@@ -5,16 +5,16 @@ const url = require('url')
 
 let win
 let tray
-const win_width = 400
-const win_height = 600
+const win_width = 350
+const win_height = 500
 
 function createWindow () {
 
   const { width, height } = electron.screen.getPrimaryDisplay().workAreaSize
  
   win = new BrowserWindow({
-    width: 400,
-    height: 600,
+    width: win_width,
+    height: win_height,
     resizable : false,
     frame: false,
     alwaysOnTop: true,

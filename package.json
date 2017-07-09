@@ -4,12 +4,12 @@
   "description": "Youtube Player collect and save your favorite songs in one place",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "purify": "node ./purify.js"
   },
-  "author": "carlosqsilva",
+  "author": "Carlos Silva <carlosqsilva@outlook.com> (https://carlosqsilva.github.io)",
   "license": "ISC",
   "dependencies": {
-    "bulma": "^0.4.2",
     "dexie": "^1.5.1",
     "video.js": "^5.19.2",
     "videojs-youtube": "^2.4.0",
@@ -18,5 +18,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/carlosqsilva/Youtube-Music-Player"
+  },
+  "devDependencies": {
+    "purify-css": "^1.2.5"
   }
 }
