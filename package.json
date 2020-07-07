@@ -13,7 +13,7 @@
     "dexie": "^1.5.1",
     "video.js": "^5.19.2",
     "videojs-youtube": "^2.4.0",
-    "electron": "~1.6.10"
+    "electron": "~9.1.0"
   },
   "repository": {
     "type": "git",
